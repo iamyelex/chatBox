@@ -1,0 +1,56 @@
+:root{
+    --main-color:#fcc2fc;
+    --primary-1:#a7727d;
+    --primary-2:#93bfcf;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--primary-2);
+    padding: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-2{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    /* margin-bottom: 0.5rem; */
+    padding: 0.5rem;
+}
+
+input{
+    padding: 0.5rem;
+}
+
+.message{
+    width: 50%;
+}
+
+/* TEXT TYPED  */
+.display{
+    /* padding: 0 0.5rem; */
+    color: var(--primary-1);
+    background-color: greenyellow;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+.spacing{
+    margin-top: 1.5rem;
+    padding: 0 0.5rem;
+}
